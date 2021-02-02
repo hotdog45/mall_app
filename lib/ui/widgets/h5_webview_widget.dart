@@ -25,11 +25,11 @@ class _H5WebViewPageState extends State<H5WebViewPage> {
       ..style.border = 'none'
       ..src = widget.bannerDetailUrl.isEmpty ? AppStrings.GITHUB : widget.bannerDetailUrl;
 
-    
-    // ui.platformViewRegistry.registerViewFactory(
-    //   'webInWeb',
-    //       (int viewId) => _element,
-    // );
+
+    ui.platformViewRegistry.registerViewFactory(
+      'webInWeb',
+          (int viewId) => _element,
+    );
     super.initState();
   }
 
