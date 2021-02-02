@@ -101,9 +101,9 @@ var webViewHandler = Handler(
     handlerFunc: (BuildContext context, Map<String, List<String>> parameters) {
   var title = jsonDecode(parameters["titleName"].first);
   var url = jsonDecode(parameters["url"].first);
-  if(kIsWeb){
-    return H5WebViewPage(url, title);
-  }
+  // if(kIsWeb){
+  //   return H5WebViewPage(url, title);
+  // }
   return WebViewPage(url, title);
 });
 
