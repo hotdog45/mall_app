@@ -1,4 +1,3 @@
-import 'dart:io';
 
 import 'package:fluro/fluro.dart';
 import 'package:flutter/foundation.dart';
@@ -29,7 +28,7 @@ import 'package:mall/ui/widgets/h5_webview_widget.dart';
 import 'package:mall/ui/widgets/webview_widget.dart';
 import 'package:mall/ui/page/mine/address_page.dart';
 import 'dart:convert';
-
+import 'package:universal_platform/universal_platform.dart';
 //引导页
 var splashHandler = Handler(
     handlerFunc: (BuildContext context, Map<String, List<String>> parameters) {
@@ -101,7 +100,7 @@ var webViewHandler = Handler(
     handlerFunc: (BuildContext context, Map<String, List<String>> parameters) {
   var title = jsonDecode(parameters["titleName"].first);
   var url = jsonDecode(parameters["url"].first);
-  if(kIsWeb){
+  if(UniversalPlatform.isWeb){
     return H5WebViewPage(url, title);
   }
   return WebViewPage(url, title);
