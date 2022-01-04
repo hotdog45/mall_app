@@ -1,18 +1,6 @@
-Flutter_Mall
-==========
-
-Flutter_Mall是一款Flutter开源在线商城应用程序，是基于[litemall](https://github.com/linlinjava/litemall)基础上进行开发，litemall包含了Spring Boot后端 + Vue管理员前端 + 微信小程序用户前端 + Vue用户移动端感兴趣的同学可以自行研究部署，Flutter_Mall基本上包含了litemall中小程序的功能。<br>
-
-Flutter_Mall_Plus 是在Flutter_Mall的基础上进行重构优化的版本，整体采用了MVVM模式，比Flutter_Mall 无论是UI还是代码可读性、维护性上都有一定的提升，Flutter_Mall已经切换在分支v1.0，以后将不再进行维护。
-
-扫码体验Flutter_Mall_Plus 安卓版本（iOS请自行下载源码进行编译）
-----------
-Flutter_Mall 已经重构完成，整体采用MVVM，页面上也进行了优化<br>
-因蒲公英下载方式改变，现在下载方式改为密码下载，打开网址以后输入密码123456<br>
-![扫码下载](https://www.pgyer.com/app/qrcode/FNiG)<br>
 
 
-Flutter_Mall功能
+Mall_app功能
 ----------
 * 首页<br>
 * 专题列表、专题详情<br>
@@ -93,34 +81,4 @@ lib<br>
 |  [provider](https://pub.dev/packages/provider)   |  状态管理   |   
 
       
-
-Flutter环境搭建
-----------------
-[Mac环境搭建](https://blog.csdn.net/zhangxiangliang2/article/details/75566412)<br>
-[Windows环境搭建](https://blog.csdn.net/yyanjun/article/details/80682586)
-
-Flutter学习资料
-----------------
-[Flutter官方文档](https://flutter.io/docs/)<br>
-[Flutter中文官网](https://flutter-io.cn/)<br>
-[Flutter教程](http://www.flutterj.com/)<br>
-[flutter-go](https://github.com/alibaba/flutter-go)<br>
-[dart](https://dart.dev/)
-
-赞赏
---------------------
-因服务器是由个人维护，如果这个项目对您有帮助，您可以扫描下面二维码进行捐赠，谢谢。<br>
-
-![微信](https://raw.githubusercontent.com/youxinLu/flutter_mall/master/screenshots/微信图片_20190905142112.jpg)
-![支付宝](https://raw.githubusercontent.com/youxinLu/flutter_mall/master/screenshots/微信图片_20190905142121.jpg)<br> 
-
-联系我
---------------
-QQ：443765662<br>
-微信<br>
-![微信](https://raw.githubusercontent.com/youxinLu/flutter_mall/master/screenshots/QQ截图20190905142302.png)
-
-
-
-
 
